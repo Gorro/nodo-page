@@ -1,0 +1,37 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.nodo-blue{
+    background-color: #02203e;
+}
+#hosting-info{
+    background-image: url(../images/hosting-info.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    padding: 0px;
+    margin: 0px;
+}
+.height{
+    height: 90vh;
+    background-size: 100% 100vh;
+}
+.centrar{
+    margin:0 auto;
+    display: block;
+}
+#hosting-servicios{
+    background-image: url(../images/hosting-servicios.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+.titulo-2{
+    color:#43d2e8;
+}
+.justify{
+    text-align: justify;
+}
