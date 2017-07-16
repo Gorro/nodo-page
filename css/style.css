@@ -2,7 +2,10 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 .nodo-blue{
-    background-color: #02203e;
+    background-color: #02203e !important;
+}
+.node-blue-2{
+    background-color: #01172e !important;
 }
 #hosting-info{
     background-image: url(../images/hosting-info.jpg);
@@ -22,7 +25,6 @@ body{
 }
 #hosting-servicios{
     background-image: url(../images/hosting-servicios.jpg);
-    background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
     background-size: 100% 100vh;
@@ -34,4 +36,48 @@ body{
 }
 .justify{
     text-align: justify;
+}
+.s-padding{
+    padding: 0px !important;
+}
+.s-margin{
+    margin: 0 !important;
+}
+.padding-5{
+    padding: 5px !important;
+}
+.padding-10{
+    padding: 10px !important;
+}
+.padding-15{
+    padding: 15px !important;
+}
+.padding-30{
+    padding: 30px !important;
+}
+.gris{
+    background-color: #f1f0f0 !important;
+    color: black !important;
+}
+#elegir-hosting{
+    background-image: url(../images/servicios.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+#servidores-hosting{
+    background-image: url(../images/servidores-hosting.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 0px;
+    margin: 0px !important;
+}
+footer a{
+    color:white;
+}
+footer a:hover{
+    color:#039be5;
 }
