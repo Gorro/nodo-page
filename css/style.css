@@ -1,6 +1,11 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+th{
+    background-color: #42a5f5;
+    color: white;
+    text-align: center;
+}
 .nodo-blue{
     background-color: #02203e !important;
 }
@@ -91,4 +96,20 @@ footer a:hover{
 }
 .menu-mobil i{
     line-height: 43px !important;    
+}
+#hosting-titulo{
+    background-image: url(../images/hosting-titulo2.jpg);    
+    background-repeat: no-repeat;
+    background-position: center top;    
+    background-size: 100% 100vh;    
+    background-attachment: fixed;  
+    height: 45vh;
+}
+#hosting-titulo h1{
+    font-size: 2.5em;
+    color:white;
+    padding-top: 40px;
+}
+#hosting-titulo h2{
+    font-size: 2em;
 }

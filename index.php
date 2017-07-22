@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>hosting en chile - servidores virtuales - hosting compartido - vps</title>
-    <?php include('link-css.php'); ?>
+    <?php include('modulos/link-css.php'); ?>
 </head>
 <body>
-    <?php include('menu.php'); ?>  
+    <?php include('modulos/menu.php'); ?>  
     <section>
         <div id="hosting-info" class="height">
         </div>
@@ -60,7 +60,7 @@
             </div>
         </div>
     </section>
-    <?php include('planes.php'); ?>
+    <?php include('modulos/planes.php'); ?>
     <section>
         <div id="elegir-hosting" class="white-text padding-30 blue darken-4">
             <h3 class="center-align">Por Qué Elegir Nuestros Servicios De Web Hosting?</h3>
@@ -124,7 +124,7 @@
             </div>
         </div>
     </section>
-    <?php include('tecnologias.php'); ?>
+    <?php include('modulos/tecnologias.php'); ?>
     <div class="container padding-30 blue-grey lighten-5 margin-10">
         <ul id="tabs-swipe-demo" class="tabs ">
             <li class="tab col s3"><a class="active color-link-tab" href="#test-swipe-1">Web Hosting</a></li>
@@ -143,6 +143,6 @@ Contrata tú VPS con Nodohost, y obtendrás la flexibilidad y seguridad de un se
             <p></p>
         </div>
     </div>
-    <?php include('footer.php'); ?>
+    <?php include('modulos/footer.php'); ?>
 </body>
 </html>

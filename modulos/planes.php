@@ -1,5 +1,5 @@
     <section>
-        <h3 class="center-align">Nuestros Planes De Hosting</h3>
+        <h3 class="center-align s-margin padding-10">Nuestros Planes De Hosting</h3>
         <div class="container">
             <div class="row">
                 <div class="col s12 l4">
