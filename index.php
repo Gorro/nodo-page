@@ -31,7 +31,6 @@
                         </p>
                         <br>
                         <br>
-                        <br>
                         <div class="center-align"><span class="btn blue lighten-2">Ver planes VPS</span></div>
                     </div>
                     <div class="col l3 s12 padding-10">
@@ -49,8 +48,6 @@
                         <p class="justify">
                             Encuentra el mejor nombre para tu nuevo proyecto web, tu dominio es el paso inicial para el éxito.
                         </p>
-                        <br>
-                        <br>
                         <br>
                         <br>
                         <div class="center-align"><span class="btn blue lighten-2">Comprar Dominio</span></div>
@@ -132,12 +129,12 @@
             <li class="tab col s3"><a class="color-link-tab" href="#test-swipe-3">Dominios</a></li>
         </ul>
         <div id="test-swipe-1" class="col s12 ">
-            <p>Ofrecemos servicio de web hosting compartido en chile. Utilizamos lo último en tecnología para garantizar un buen rendimiento que se traduce en estabilidad y velocidad. Nuestros enlaces redundantes mantendrán siempre tu sitio web en línea. Todos los planes de hosting incluyen CPanel, panel de administración líder por su sencillez y facilidad de uso. Incorporamos Softaculous auto-instalador con gran variedad de scripts que reduce a un click la instalación de tus aplicaciones.
-</p><p>¿Necesitas ayuda? Contarás con soporte las 24 horas, los 365 días del año, con personal capacitado que atenderá tus requerimientos.</p>
+            <p>Ofrecemos servicio de web hosting compartido en chile. Utilizamos lo último en tecnología para garantizar un buen rendimiento que se traduce en estabilidad y velocidad. Nuestros enlaces redundantes mantendrán siempre tu sitio web en línea. Todos los planes de hosting incluyen CPanel, panel de administración líder por su sencillez y facilidad de uso. Incorporamos Softaculous auto-instalador con gran variedad de scripts que reduce a un click la instalación de tus aplicaciones.</p>
+            <p>¿Necesitas ayuda? Contarás con soporte las 24 horas, los 365 días del año, con personal capacitado que atenderá tus requerimientos.</p>
         </div>
         <div id="test-swipe-2" class="col s12">
             <p>Con nuestros VPS dispondrás de todas las ventajas de un servidor dedicado pero a un menor costo. Tus recursos no serán compartidos con otros usuarios, siempre serán fijos y los podrás administrar tu mismo. Tendrás acceso root vía ssh además de gestionar dominios, cuentas de correo, bases de datos entre muchas otras funcionalidades.
-Contrata tú VPS con Nodohost, y obtendrás la flexibilidad y seguridad de un servidor dedicado a un precio conveniente.</p>
+            Contrata tú VPS con Nodohost, y obtendrás la flexibilidad y seguridad de un servidor dedicado a un precio conveniente.</p>
         </div>
         <div id="test-swipe-3" class="col s12">
             <p></p>

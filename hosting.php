@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,14 +9,14 @@
 </head>
 <body>
     <?php include('modulos/menu.php'); ?>
-    <section id="hosting-titulo">
-        <h1 class="s-margin center-align">Web Hosting Profesional en Chile</h1>
-        <h2 class="white-text center-align">Rápido, Estable y Seguro</h2>
+    <section id="hosting-titulo" class="vh-45 back-up">
+        <h1 class="s-margin center-align titulo-h1">Web Hosting Profesional en Chile</h1>
+        <h2 class="white-text center-align titulo-h2">Rápido, Seguro y Estable</h2>
     </section>
     <div class="grey lighten-5">
         <?php include('modulos/planes.php'); ?>
     </div>
-    <section class="">
+    <section>
         <h2 class="center-align">Compara y elige tu plan</h2>
         <table class="responsive-table bordered highlight centered">
             <tbody>
@@ -49,14 +49,14 @@
                 </tr>
                 <tr>
                     <td>Respaldos</td>
-                    <td><img class="" src="images/checked2.png" alt="Si" width="32" height="32"></td>
-                    <td><img class="" src="images/checked2.png" alt="Si" width="32" height="32"></td>
-                    <td><img class="" src="images/checked2.png" alt="Si" width="32" height="32"></td>
-                    <td><img class="" src="images/checked2.png" alt="Si" width="32" height="32"></td>
-                    <td><img class="" src="images/checked2.png" alt="Si" width="32" height="32"></td>
-                    <td><img class="" src="images/checked2.png" alt="Si" width="32" height="32"></td>
+                    <td><img  src="images/checked2.png" alt="Si" width="32" height="32"></td>
+                    <td><img  src="images/checked2.png" alt="Si" width="32" height="32"></td>
+                    <td><img  src="images/checked2.png" alt="Si" width="32" height="32"></td>
+                    <td><img  src="images/checked2.png" alt="Si" width="32" height="32"></td>
+                    <td><img  src="images/checked2.png" alt="Si" width="32" height="32"></td>
+                    <td><img  src="images/checked2.png" alt="Si" width="32" height="32"></td>
                 </tr>
-                <tr class="even">
+                <tr>
                     <td>Correos electrónicos</td>
                     <td>10</td>
                     <td>15</td>
@@ -94,12 +94,12 @@
                 </tr>
                 <tr>
                     <td>Softaculous</td>
-                    <td>&nbsp;<img class="" src="images/checked2.png" alt="Si" width="32" height="32"></td>
-                    <td>&nbsp;<img class="" src="images/checked2.png" alt="Si" width="32" height="32"></td>
-                    <td>&nbsp;<img class="" src="images/checked2.png" alt="Si" width="32" height="32"></td>
-                    <td>&nbsp;<img class="" src="images/checked2.png" alt="Si" width="32" height="32"></td>
-                    <td>&nbsp;<img class="" src="images/checked2.png" alt="Si" width="32" height="32"></td>
-                    <td>&nbsp;<img class="" src="images/checked2.png" alt="Si" width="32" height="32"></td>
+                    <td>&nbsp;<img  src="images/checked2.png" alt="Si" width="32" height="32"></td>
+                    <td>&nbsp;<img  src="images/checked2.png" alt="Si" width="32" height="32"></td>
+                    <td>&nbsp;<img  src="images/checked2.png" alt="Si" width="32" height="32"></td>
+                    <td>&nbsp;<img  src="images/checked2.png" alt="Si" width="32" height="32"></td>
+                    <td>&nbsp;<img  src="images/checked2.png" alt="Si" width="32" height="32"></td>
+                    <td>&nbsp;<img  src="images/checked2.png" alt="Si" width="32" height="32"></td>
                 </tr>
                 <tr>
                     <td>Número de procesos</td>
@@ -112,12 +112,12 @@
                 </tr>
                 <tr>
                     <td>CGI</td>
-                    <td><img class="" src="images/no.png" alt="no" width="32" height="32"></td>
-                    <td><img class="" src="images/no.png" alt="no" width="32" height="32"></td>
-                    <td><img class="" src="images/no.png" alt="no" width="32" height="32"></td>
-                    <td><img class="" src="images/checked2.png" alt="Si" width="32" height="32"></td>
-                    <td><img class="" src="images/checked2.png" alt="Si" width="32" height="32"></td>
-                    <td><img class="" src="images/checked2.png" alt="Si" width="32" height="32"></td>
+                    <td><img  src="images/no.png" alt="no" width="32" height="32"></td>
+                    <td><img  src="images/no.png" alt="no" width="32" height="32"></td>
+                    <td><img  src="images/no.png" alt="no" width="32" height="32"></td>
+                    <td><img  src="images/checked2.png" alt="Si" width="32" height="32"></td>
+                    <td><img  src="images/checked2.png" alt="Si" width="32" height="32"></td>
+                    <td><img  src="images/checked2.png" alt="Si" width="32" height="32"></td>
                 </tr>
                 <tr>
                     <td>Mensual</td>
@@ -168,12 +168,41 @@
             </tbody>
         </table>
     </section>
-    <section class="nodo-blue padding-30">
+    <section id="hosting-card" class="nodo-blue padding-30">
         <div class="container">
             <div class="row">
-                <div class="col l4"><span class="btn-floating"><i class="material-icons">headset_mic</i></span></div>
-                <div class="col l4"></div>
-                <div class="col l4"></div>      
+                <div class="col l4">
+                    <span class="btn-floating  blue darken-1"><i class="material-icons">headset_mic</i></span>
+                    <h6>SOPORTE</h6>
+                    <p class="white-text">Soporte técnico especializado dispuesto a resolver todas tus dudas</p>
+                </div>
+                <div class="col l4">
+                    <span class="btn-floating  blue darken-1"><i class="material-icons">person_add</i></span>
+                    <h6>ACCESO</h6>
+                    <p class="white-text">Accede desde cualquier dispositivo a tu administrador de servicio de hosting</p>
+                </div>
+                <div class="col l4">
+                    <span class="btn-floating  blue darken-1"><i class="material-icons">desktop_windows</i></span>
+                    <h6>PANEL DE CONTROL</h6>
+                    <p class="white-text">Cpanel, panel de control con una interfaz fácil de usar y administrar</p>
+                </div>      
+            </div>
+            <div class="row">
+                <div class="col l4">
+                    <span class="btn-floating  blue darken-1"><i class="material-icons">network_check</i></span>
+                    <h6>99,9% UPTIME</h6>
+                    <p class="white-text">Con nuestros enlaces redundantes y las tecnologías utilizadas en nuestros servidores, garantizamos el tiempo en linea de nuestros servidores</p>
+                </div>
+                <div class="col l4">
+                    <span class="btn-floating  blue darken-1"><i class="material-icons">folder_open</i></span>
+                    <h6>SISTEMA OPERATIVO</h6>
+                    <p class="white-text">Todos nuestros servicios de web hosting trabajan bajo el sistema operativo Linux.</p>
+                </div>
+                <div class="col l4">
+                    <span class="btn-floating  blue darken-1"><i class="material-icons">settings_backup_restore</i></span>
+                    <h6>RESPALDOS</h6>
+                    <p class="white-text">Se realizan copias de seguridad semanales de los servidores virtuales</p>
+                </div>      
             </div>
         </div>
     </section>
