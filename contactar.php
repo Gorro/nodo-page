@@ -55,8 +55,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col l8 s12 padding-15">
-                <form class="col s12">
+            <div id="contact" class="col l8 s12 padding-15">
+                <form id="contact_form" class="col s12">
                     <h5>Contáctenos</h5>
                     <div class="row">
                         <div class="input-field col s6">
@@ -75,10 +75,10 @@
                             <label for="icon_prefix2">Escriba su mensaje</label>
                         </div>
                     </div>
-                    <div class="g-recaptcha" data-sitekey="6Lc3HioUAAAAABzBjt4m5Br3jmz-3OTH0FjN5mRb"></div>
+                    <div class="g-recaptcha" data-sitekey="6Lc3HioUAAAAABzBjt4m5Br3jmz-3OTH0FjN5mRb" data-callback="mostrar"></div>
                     <div class="clearfix"></div>
                     <br>
-                    <button class="btn waves-effect waves-light blue lighten-2" type="submit" name="action">Enviar Mensaje
+                    <button id="enviar" class="btn waves-effect waves-light blue lighten-2 hide" type="submit" name="action" v-on:click="validar($event)">Enviar Mensaje
                         <i class="material-icons right">send</i>
                     </button>
                 </form>
@@ -87,5 +87,32 @@
     </section>
     <?php include('modulos/tecnologias.php'); ?>
     <?php include('modulos/footer.php'); ?>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.2/vue.min.js"></script>    
+    <script>
+        mostrar = function(){
+            $('#enviar').removeClass('hide');
+        }
+        var app = new Vue({
+            el : '#contact',            
+            methods : {
+                validar : function(event){
+                    var formulario = $('#contact_form');
+                    event.preventDefault();
+                    $.post(
+                        "validar.php",
+                        formulario.serialize(),
+                        function(data){
+                            console.log(data);
+                            // if(data.respuesta){
+                            //     console.log('funciona');
+                            // }else{
+                            //     console.log('no es humano');
+                            // }
+                        }
+                    );
+                }
+            }
+        })
+    </script>
 </body>
 </html>

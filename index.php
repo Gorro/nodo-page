@@ -11,6 +11,31 @@
     <?php include('modulos/menu.php'); ?>  
     <section>
         <div id="hosting-info" class="height">
+            <div class="slider">
+                <ul class="slides">
+                    <li>
+                        <img src="images/hosting-titulo.jpg"> <!-- random image -->
+                        <div class="caption center-align">
+                        <h1>Hosting Chile</h1>
+                        <h5 class="light grey-text text-lighten-3">Rápido, Seguro y Estable.</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/nosotros.jpg"> <!-- random image -->
+                        <div class="caption left-align">
+                        <h3>Hosting Chile</h3>
+                        <h5 class="light grey-text text-lighten-3">Respaldo de información, Antivirus y Firewall.</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/contacto.jpg"> <!-- random image -->
+                        <div class="caption right-align">
+                        <h3>Hosting Chile</h3>
+                        <h5 class="light grey-text text-lighten-3">Siempre Conectados Contigo.</h5>
+                        </div>
+                    </li>                    
+                </ul>
+            </div>
         </div>
         <div id="hosting-servicios" class="white-text padding-30 blue darken-4">
             <div class="row">
@@ -60,7 +85,7 @@
     <?php include('modulos/planes.php'); ?>
     <section>
         <div id="elegir-hosting" class="white-text padding-30 blue darken-4">
-            <h3 class="center-align">Por Qué Elegir Nuestros Servicios De Web Hosting?</h3>
+            <h3 class="center-align">¿Por Qué Elegir Nuestros Servicios De Web Hosting?</h3>
             <div class="row">
                 <div class="">
                     <div class="col l6">
@@ -141,5 +166,10 @@
         </div>
     </div>
     <?php include('modulos/footer.php'); ?>
+    <script>
+        $(document).ready(function(){
+            $('.slider').slider();
+        });
+    </script>
 </body>
 </html>

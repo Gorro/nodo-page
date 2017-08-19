@@ -124,46 +124,45 @@
                     <td>–</td>
                     <td>–</td>
                     <td>–</td>
-                    <td>$8.165 + IVA</td>
+                    <td>$5.000 + IVA</td>
+                    <td>$9.990 + IVA</td>
                     <td>$14.990 + IVA</td>
-                    <td>$23.990 + IVA</td>
                 </tr>
                 <tr>
                     <td>Semestral</td>
                     <td>–</td>
                     <td>–</td>
                     <td>–</td>
-                    <td>$48.990 + IVA</td>
-                    <td>–</td>
-                    <td>–</td>
+                    <td>$29.990 + IVA</td>
+                    <td>$59.940</td>
+                    <td>$89.940</td>
                 </tr>
                 <tr>
                     <td>Anual</td>
                     <td>$16.990 + IVA</td>
-                    <td>$26.990 + IVA</td>
-                    <td><span style="text-decoration: line-through;">$49.990</span> (30% de descuento)<br>
-                        $34.990 + IVA
+                    <td>$23.990 + IVA</td>
+                    <td>$36.990 + IVA
                     </td>
-                    <td>$97.980 + IVA</td>
+                    <td>$59.990 + IVA</td>
                     <td>
-                        $149.900&nbsp;+ IVA
+                        $99.900 + IVA
                         <p></p>
                         <p>(Dos meses de <strong>hosting gratis</strong>)</p>
                     </td>
                     <td>
-                        $239.900&nbsp;+ IVA
+                        $149.990 + IVA
                         <p></p>
                         <p>(Dos meses de <strong>hosting gratis</strong>)</p>
                     </td>
                 </tr>
                 <tr class="even">
                     <td>Contratar</td>
-                    <td><a class="btn blue lighten-2" href="https://nodohost.cl/clientes/cart.php?a=add&amp;pid=5">Comprar</a></td>
-                    <td><a class="btn blue lighten-2" href="https://nodohost.cl/clientes/cart.php?a=add&amp;pid=6">Comprar</a></td>
-                    <td><a class="btn blue lighten-2" href="https://nodohost.cl/clientes/cart.php?a=add&amp;pid=7">Comprar</a></td>
-                    <td><a class="btn blue lighten-2" href="https://nodohost.cl/clientes/cart.php?a=add&amp;pid=8">Comprar</a></td>
-                    <td><a class="btn blue lighten-2" href="https://nodohost.cl/clientes/cart.php?a=add&amp;pid=9">Comprar</a></td>
-                    <td><a class="btn blue lighten-2" href="https://nodohost.cl/clientes/cart.php?a=add&amp;pid=10">Comprar</a></td>
+                    <td><a class="btn blue lighten-2" href="https://nodohost.cl/clientes/cart.php?a=add&amp;pid=5">Contratar</a></td>
+                    <td><a class="btn blue lighten-2" href="https://nodohost.cl/clientes/cart.php?a=add&amp;pid=6">Contratar</a></td>
+                    <td><a class="btn blue lighten-2" href="https://nodohost.cl/clientes/cart.php?a=add&amp;pid=7">Contratar</a></td>
+                    <td><a class="btn blue lighten-2" href="https://nodohost.cl/clientes/cart.php?a=add&amp;pid=8">Contratar</a></td>
+                    <td><a class="btn blue lighten-2" href="https://nodohost.cl/clientes/cart.php?a=add&amp;pid=9">Contratar</a></td>
+                    <td><a class="btn blue lighten-2" href="https://nodohost.cl/clientes/cart.php?a=add&amp;pid=10">Contratar</a></td>
                 </tr>
             </tbody>
         </table>
