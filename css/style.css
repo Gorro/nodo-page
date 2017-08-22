@@ -13,14 +13,14 @@ th{
 .node-blue-2{
     background-color: #01172e !important;
 }
-#hosting-info{
+/* #hosting-info{
     background-image: url(../images/hosting-info.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
     padding: 0px;
     margin: 0px;
-}
+} */
 .height{
     height: 90vh;
     background-size: 100% 100vh;
@@ -107,6 +107,9 @@ footer a:hover{
 #hosting-titulo{
     background-image: url(../images/hosting-titulo.jpg);
 }
+#hosting-vps{
+    background-image: url(../images/vps.jpg);
+}
 #hosting-nosotros{
     background-image: url(../images/nosotros.jpg); 
 }
@@ -133,6 +136,9 @@ footer a:hover{
 }
 .color-nodo{
     color:#02203e !important;
+}
+.list-circle{
+    list-style-type: circle !important;
 }
 /* FORMULARIO  */
 /* label color */
